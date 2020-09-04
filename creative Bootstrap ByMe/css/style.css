@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 0 5rem;
+  width: 100%;
+}
+
+#Header {
+  width: 100%;
+  padding: 30px 0;
+  position: fixed;
+  z-index: 2;
+}
+
+#Header .header-all .left {
+  width: 20%;
+  float: left;
+}
+
+#Header .header-all .left a {
+  color: #FFFFFFB3;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Header .header-all .left a:hover {
+  color: white;
+}
+
+#Header .header-all .right {
+  width: 30%;
+  float: right;
+}
+
+#Header .header-all .right ul {
+  list-style: none;
+}
+
+#Header .header-all .right ul li {
+  float: left;
+  padding: 0 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFFB3;
+  cursor: pointer;
+  margin-left: 9px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Header .header-all .right ul li:hover {
+  color: white;
+}
+
+#Second {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 18rem 0;
+  z-index: 1;
+  position: relative;
+}
+
+#Second .overlay {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #554545;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+#Second .second-text {
+  text-align: center;
+}
+
+#Second .second-text h1 {
+  color: #FFFFFF;
+  font-size: 50px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Second .second-text p {
+  color: #FFFFFFBF;
+  font-size: 18px;
+  margin-bottom: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+#Second .second-text a {
+  color: #FFFFFF;
+  background-color: #F4623A;
+  font-size: 13.6px;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 20px 36px;
+  font-weight: bold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Second .second-text a:hover {
+  background-color: #ca3309;
+}
+
+#Second .second-text hr {
+  background-color: #F4623A;
+  width: 7%;
+  height: 3px;
+  border: none;
+  margin: 30px auto;
+}
+
+#Third {
+  background-color: #F4623A;
+  padding: 143px 0;
+}
+
+#Third .third-text {
+  text-align: center;
+}
+
+#Third .third-text h2 {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Third .third-text p {
+  font-size: 16px;
+  color: #FFFFFF80;
+  margin-bottom: 45px;
+  font-family: 'Merriweather', serif;
+}
+
+#Third .third-text a {
+  color: #212529;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 13.6px;
+  background-color: #F8F9FA;
+  padding: 20px 36px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Third .third-text a:hover {
+  background-color: #b4b4b4b3;
+}
+
+#Third .third-text hr {
+  background-color: #FFFFFF;
+  height: 3px;
+  border: none;
+  width: 7%;
+  margin: 30px auto;
+}
+
+#Fourth {
+  padding: 7.5rem 0;
+  overflow: hidden;
+}
+
+#Fourth .fourth-text {
+  text-align: center;
+}
+
+#Fourth .fourth-text h2 {
+  font-size: 2rem;
+  color: #212529;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Fourth .fourth-text hr {
+  background-color: #F4623A;
+  width: 7%;
+  height: 3px;
+  border: none;
+  margin: 30px auto;
+  margin-bottom: 55px;
+}
+
+#Fourth .fourth-all .box {
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+
+#Fourth .fourth-all .box i {
+  color: #F4623A;
+  font-size: 60px;
+}
+
+#Fourth .fourth-all .box h3 {
+  color: #212529;
+  font-size: 24px;
+  margin: 16px 0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Fourth .fourth-all .box p {
+  color: #6c757D;
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+}
+
+#Fifth .fifth-all .box {
+  float: left;
+  width: 33.3%;
+  position: relative;
+  cursor: pointer;
+}
+
+#Fifth .fifth-all .box:hover .box-text {
+  opacity: 0.8;
+}
+
+#Fifth .fifth-all .box:hover .overlay {
+  opacity: 0.8;
+}
+
+#Fifth .fifth-all .box img {
+  width: 100%;
+}
+
+#Fifth .fifth-all .box .box-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#Fifth .fifth-all .box .box-text h5 {
+  color: #FFFFFF80;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Fifth .fifth-all .box .box-text h4 {
+  color: #FFFFFF;
+  font-size: 19px;
+  font-family: 'Merriweather', serif;
+}
+
+#Fifth .fifth-all .box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F4623A;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.clear {
+  clear: both;
+}
+
+#Sixth {
+  padding: 138px 0px;
+  background-color: #343a40;
+}
+
+#Sixth .sixth-text {
+  text-align: center;
+}
+
+#Sixth .sixth-text h2 {
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Sixth .sixth-text a {
+  color: #212529;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #F8F9FA;
+  padding: 20px 36px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 13.6px;
+}
+
+#Sixth .sixth-text a:hover {
+  background-color: #bdbdbdb3;
+}
+
+#Seventh {
+  margin: 7rem 0;
+  overflow: hidden;
+}
+
+#Seventh .seventh-text {
+  text-align: center;
+}
+
+#Seventh .seventh-text h2 {
+  color: #212529;
+  font-size: 35px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#Seventh .seventh-text hr {
+  background-color: #F4623A;
+  width: 7%;
+  height: 3px;
+  border: none;
+  margin: 30px auto;
+}
+
+#Seventh .seventh-text p {
+  color: #6c757d;
+  font-size: 19px;
+}
+
+#Seventh .seventh-icon {
+  width: 60%;
+  margin: auto;
+  margin-top: 35px;
+}
+
+#Seventh .seventh-icon .left {
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+
+#Seventh .seventh-icon .left p {
+  color: #212529;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+#Seventh .seventh-icon .left i {
+  color: #6c757D;
+  font-size: 45px;
+}
+
+#Seventh .seventh-icon .right {
+  width: 40%;
+  float: right;
+  text-align: center;
+}
+
+#Seventh .seventh-icon .right a {
+  color: #F4623A;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#Seventh .seventh-icon .right a:hover {
+  text-decoration: underline;
+}
+
+#Seventh .seventh-icon .right i {
+  color: #6c757D;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+#Footer {
+  padding: 3rem;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+#Footer p {
+  color: #7e91a7;
+}
+/*# sourceMappingURL=style.css.map */
